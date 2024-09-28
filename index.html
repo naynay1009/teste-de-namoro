@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Encontros do Destino: Caminhos do Amor</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Tomar a iniciativa de falar com a pessoa?</p>
+            <button class="btn-proximo" data-proximo="1">Sim, eu vou falar</button>
+            <button class="btn-proximo" data-proximo="2">Não, eu fico tímida e não falo</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Como você propõe o próximo encontro?</p>
+            <button class="btn-proximo" data-proximo="3">Convidar para um jantar romântico</button>
+            <button class="btn-proximo" data-proximo="4">Sugerir um passeio casual no parque</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Vocês não ficam juntos.</p>
+            <button class="btn-proximo" data-proximo="7">Reviravolta</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Durante o jantar, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Abrir o coração e falar sobre seus sentimentos</button>
+            <button class="btn-proximo" data-proximo="6">Manter a conversa leve e evitar o assunto emociona</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Após o passeio casual, a pessoa parece distante. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Você tenta novamente e convida para um evento
+                especial</button>
+            <button class="btn-proximo" data-proximo="6">Você decide seguir em frente e não insistir</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocês ficam juntos</p>
+            <button class="btn-proximo" data-proximo="7">Reviravolta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            
+            <p>Vocês não ficam juntos.</p>
+            <button class="btn-proximo" data-proximo="7">Reviravolta</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A mensagem de desculpas</p>
+            <button class="btn-proximo" data-proximo="8">Aceitar o pedido de desculpas e tentar novamente</button>
+            <button class="btn-proximo" data-proximo="9">Ignorar a mensagem</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Vocês ficam juntos.</p>
+            <button class="btn-proximo" data-proximo="0">Refazer teste</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            
+            <p>Vocês não ficam juntos.</p>
+            <button class="btn-proximo" data-proximo="0">Refazer teste</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
